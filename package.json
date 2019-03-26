@@ -1,0 +1,48 @@
+{
+  "name": "angular-universal-demo",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:4garfield/angular-universal-demo.git"
+  },
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "build:ssr": "npm run build:client-and-server-bundles && npm run webpack:server",
+    "serve:ssr": "node dist/server.js",
+    "build:client-and-server-bundles": "ng build --prod && ng run angular-universal-demo:server",
+    "webpack:server": "webpack --config webpack.server.config.js --progress --colors"
+  },
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "@angular/animations": "^6.1.10",
+    "@angular/common": "^6.1.10",
+    "@angular/compiler": "^6.1.10",
+    "@angular/core": "^6.1.10",
+    "@angular/forms": "^6.1.10",
+    "@angular/http": "^6.1.10",
+    "@angular/platform-browser": "^6.1.10",
+    "@angular/platform-browser-dynamic": "^6.1.10",
+    "@angular/router": "^6.1.10",
+    "@angular/upgrade": "^6.1.10",
+    "@nguniversal/express-engine": "^6.0.0",
+    "@nguniversal/module-map-ngfactory-loader": "^6.0.0",
+    "core-js": "^2.5.4",
+    "rxjs": "^6.0.0",
+    "zone.js": "^0.8.26"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~0.6.3",
+    "@angular/cli": "~6.2.6",
+    "@angular/compiler-cli": "^7.2.10",
+    "@angular/language-service": "^6.1.10",
+    "@angular/platform-server": "^6.1.10",
+    "@types/node": "~8.9.4",
+    "ts-loader": "^4.4.2",
+    "ts-node": "~5.0.1",
+    "typescript": "^3.2.4",
+    "webpack-cli": "^3.0.8"
+  }
+}
