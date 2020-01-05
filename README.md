@@ -1,14 +1,16 @@
-Minimal Angular Universal App
+# Angular Universal Demo
+
+Minimal Angular Universal App.
 
 ## Usage
 
-1. clone project: `git clone git@github.com:4garfield/ng-universal-demo.git`
-2. install dependencies: `cd ng-universal-demo & npm install`
-3. build the app with server-side-rendering: `npm run build:ssr`
-3. start app: `npm run serve:ssr`
-4. open browser, navigate to `http://localhost:3002`
+1. clone project with git.
+2. install dependencies: `npm install`.
+3. build the app with server-side-rendering: `npm run build:ssr`.
+4. start app: `npm run serve:ssr`
+5. open browser, navigate to `http://localhost:3002`
 
-## Gotchas
+## Routes
 
 * Route `/home` shows how the data-binding works in universal app and how to interact with Dom Element
 * Route `/lazy` shows the lazy loading module
@@ -17,4 +19,4 @@ Minimal Angular Universal App
 
 ## Reference
 
-* https://angular.io/guide/universal
+* [Angular Universal](https://angular.io/guide/universal)
