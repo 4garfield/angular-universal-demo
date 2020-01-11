@@ -9,4 +9,4 @@ import { AboutComponent } from './about.component';
     ])
   ]
 })
-export class AboutRoutingModule {}
+export class AboutRoutingModule { }

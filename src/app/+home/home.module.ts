@@ -14,4 +14,4 @@ import { HomeRoutingModule } from './home.routing.module';
     XLargeDirective
   ]
 })
-export class HomeModule {}
+export class HomeModule { }

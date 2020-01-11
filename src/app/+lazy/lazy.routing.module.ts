@@ -9,4 +9,4 @@ import { LazyComponent } from './lazy.component';
     ])
   ]
 })
-export class LazyRoutingModule {}
+export class LazyRoutingModule { }

@@ -9,4 +9,4 @@ import { JsonComponent } from './json.component';
     ])
   ]
 })
-export class JsonRoutingModule {}
+export class JsonRoutingModule { }

@@ -9,4 +9,4 @@ import { LazyRoutingModule } from './lazy.routing.module';
     LazyRoutingModule
   ]
 })
-export class LazyModule {}
+export class LazyModule { }

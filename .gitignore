@@ -1,9 +1,15 @@
-# MAC
+# System Files
 .DS_Store
+Thumbs.db
 
-# NPM
-node_modules
+# dependencies
+/node_modules
+
+# compiled output
+/dist
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+
 .npmrc
-
-# build
-dist

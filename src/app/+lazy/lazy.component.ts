@@ -4,4 +4,4 @@ import { Component } from '@angular/core'
   selector: 'lazy-view',
   templateUrl: './lazy.component.html'
 })
-export class LazyComponent {}
+export class LazyComponent { }

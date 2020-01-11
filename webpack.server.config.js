@@ -12,9 +12,7 @@ module.exports = {
   externals: [],
   output: {
     path: path.join(__dirname, './dist'),
-    filename: '[name].js',
-    library: '',
-    libraryTarget: 'commonjs'
+    filename: '[name].js'
   },
   module: {
     rules: [{

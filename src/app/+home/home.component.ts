@@ -7,7 +7,7 @@ import { isPlatformBrowser, isPlatformServer } from '@angular/common';
 })
 export class HomeComponent {
   title: string;
-  
+
   constructor(@Inject(PLATFORM_ID) private platformId: Object, @Inject(APP_ID) private appId: string) {
     this.title = 'ftw';
   }

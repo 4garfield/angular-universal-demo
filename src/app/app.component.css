@@ -1,11 +1,11 @@
 * {
-  padding:0;
-  margin:0;
+  padding: 0;
+  margin: 0;
 }
 
 h1 {
   text-align: center;
-  color: rgba(5,109,173,.95);
+  color: rgba(5, 109, 173, .95);
 }
 
 .navbar {
@@ -26,6 +26,7 @@ h1 {
   color: #056dae;
   border-bottom: 3px solid #056dae;
 }
+
 .router-link-active {
   color: #056dae;
   border-bottom: 3px solid #056dae;
