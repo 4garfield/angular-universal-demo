@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule, BrowserTransferStateModule } from '@angular/platform-browser';
+import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { APP_BASE_HREF } from '@angular/common';
 import { TransferHttpCacheModule } from '@nguniversal/common';
@@ -17,7 +17,6 @@ import { AboutModule } from './+about/about.module';
       appId: 'angular-universal-demo-app'
     }),
     PrebootModule.withConfig({ appRoot: 'app' }),
-    BrowserTransferStateModule,
     HttpClientModule,
     TransferHttpCacheModule,
     HomeModule,
